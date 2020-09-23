@@ -1,0 +1,598 @@
+/* 限时抢购 */
+
+.container {
+    height: 340px;
+}
+
+.flashsale {
+    height: 40px;
+    line-height: 45px;
+    color: red;
+}
+
+.flashsale .s {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+    line-height: 10px;
+    position: absolute;
+    top: 16px;
+    left: 150px;
+}
+
+.flashsale .p2 {
+    position: absolute;
+    top: -3px;
+    left: 112px;
+}
+
+.flashsale .p {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.flashsale .p span {
+    background-color: #000;
+    color: white;
+    padding: 5px;
+}
+
+.flashsale .p span,
+.flashsale .p i {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.flashsale .p i {
+    color: black;
+    text-align: center;
+}
+
+.content {
+    height: 300px;
+    border-top: 2px solid red;
+}
+
+.content ul {
+    width: 1200%;
+    background-color: #fff;
+}
+
+.content li {
+    margin: none;
+    height: 300px;
+    border-right: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+.swiper-slide a div:first-child {
+    margin: 20px auto;
+}
+
+.swiper-slide a {
+    color: #666;
+}
+
+.swiper-slide a div:last-child,
+.swiper-slide p {
+    font-size: 16px;
+}
+
+.swiper-slide a div img,
+.swiper-slide a div:first-child {
+    width: 150px;
+    height: 180px;
+}
+
+.swiper-slide p {
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    color: red;
+}
+
+.swiper-slide p span {
+    color: #666;
+    font-size: 14px;
+}
+
+.swiper-slide p del {
+    color: #999;
+    font-size: 14px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+
+/* 重磅推荐 */
+
+.container2 {
+    height: 400px;
+    position: relative;
+}
+
+.container2 li {
+    width: 385px;
+    height: 400px;
+    background-color: #fff;
+}
+
+.container2 .l1,
+.container2 .l2 {
+    margin-right: 22px;
+}
+
+.container2 p {
+    width: 385px;
+    height: 40px;
+    background-color: #2dbbeb;
+}
+
+.heavy {
+    position: absolute;
+    top: 8px;
+}
+
+.container2 p .gt {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    line-height: 11px;
+    border: 1px solid white;
+}
+
+.gt .iconfont {
+    font-size: 8px;
+}
+
+.gt {
+    position: absolute;
+    top: 14px;
+    left: 200px;
+}
+
+.new-p .gt {
+    position: absolute;
+    top: 14px;
+    left: 600px;
+}
+
+.rot-p .gt {
+    position: absolute;
+    top: 14px;
+    left: 1000px;
+}
+
+.recommend p a img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.recommend ul li {
+    width: 187px;
+    height: 350px;
+    margin: 2px 2px 2px 3px;
+}
+
+.recommend li .p1 {
+    width: 187px;
+    height: 170px;
+    background-color: #dadbd7;
+    margin-top: 0px;
+}
+
+.recommend .p1 img {
+    width: 140px;
+    height: 140px;
+    padding-top: 20px;
+}
+
+.recommend li .p2 {
+    width: 187px;
+    height: 87px;
+    background-color: #fce7da;
+    margin-top: -5px;
+}
+
+.recommend .p2 img,
+.recommend .p3 img {
+    width: 130px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.recommend li .p3 {
+    width: 187px;
+    height: 87px;
+    background-color: #dcdbcd;
+    margin-top: 5px;
+}
+
+.recommend .new .p1 {
+    background-color: #d7e7fb;
+}
+
+.recommend .new .p2 {
+    background-color: #f3efd3;
+}
+
+.box ul {
+    width: 305px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 40px;
+}
+
+.box ul li {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.underline {
+    width: 60px;
+    position: absolute;
+    top: 78px;
+    right: 285px;
+    border-bottom: 3px solid #2dbbeb;
+}
+
+.boxtop ul li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.boxbottom {
+    width: 385px;
+    overflow: hidden;
+}
+
+.boxbottom ol {
+    width: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.boxbottom ol li {
+    width: 360px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.boxbottom ol li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.boxbottom ol .current2 {
+    height: 110px;
+}
+
+.boxbottom ol .current2 .big {
+    display: block;
+}
+
+.boxbottom ol li .big .imgBig:hover {
+    transform: scale(1.1);
+}
+
+.boxbottom ol .current2 .small {
+    display: none;
+}
+
+.boxbottom ol li img {
+    vertical-align: middle;
+}
+
+.boxbottom ol li .big {
+    height: 110px;
+    display: none;
+}
+
+.boxbottom ol li .small {
+    width: 360px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mook {
+    display: none;
+}
+
+
+/* 博库热推 */
+
+.container3 {
+    height: 535px;
+    position: relative;
+}
+
+.shu1 {
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.edit1 li {
+    width: 80px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.edit1 li a {
+    font-size: 14px;
+    color: #333;
+}
+
+.editGood {
+    background-color: #62adbb;
+}
+
+.container3 .row1 {
+    margin-top: 5px;
+}
+
+.row1 ul {
+    width: 1200px;
+}
+
+.row1 ul li {
+    width: 199px;
+    height: 250px;
+    margin: 0px 1px 1px 0px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.row1 ul li a {
+    color: #666;
+}
+
+.row1 li>p:nth-child(2) {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.row1 li>p:last-child {
+    margin-top: 5px;
+    color: red;
+}
+
+.row1 ul li .p5 {
+    margin-top: 25px;
+}
+
+.row1 img {
+    width: 140px;
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.row1 ul li .anner1 {
+    position: absolute;
+    top: 30px;
+    left: 405px;
+}
+
+.row1 ul li .anner2 {
+    position: absolute;
+    top: 30px;
+    right: 365px;
+}
+
+.row1 ul li .anner3 {
+    position: absolute;
+    top: 281px;
+    left: 205px;
+}
+
+.row1 .img1 {
+    width: 199px;
+    height: 250px;
+    margin-top: 0px;
+}
+
+
+/* 图书频道 */
+
+#edit1 li {
+    width: 58px;
+}
+
+.row1 ul li .anner0 {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+.row1 ul li .anner4 {
+    position: absolute;
+    top: 30px;
+    right: 565px;
+}
+
+.row1 ul li .anner5 {
+    position: absolute;
+    top: 30px;
+    right: 165px;
+}
+
+.row1 ul li .anner6 {
+    position: absolute;
+    top: 281px;
+    right: 165px;
+}
+
+.row1 ul li .p6 {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* 童书频道 */
+
+.new {
+    background-color: #edb458;
+}
+
+.book1 {
+    margin: 0px;
+}
+
+
+/* 分类推荐 */
+
+.classify1 {
+    background-color: #e85e33;
+}
+
+.row1 ul li .anner7 {
+    position: absolute;
+    top: 281px;
+    left: 5px;
+}
+
+.row1 ul li .anner8 {
+    position: absolute;
+    top: 281px;
+    left: 405px;
+}
+
+
+/* 人气作家 */
+
+.row2 {
+    height: 405px;
+    background-color: #fff;
+    margin-top: 5px;
+    border-top: 2px solid #5babbb;
+}
+
+.row2 .boxl {
+    float: left;
+    width: 780px;
+}
+
+.row2 .boxl .boxl1 {
+    float: left;
+    width: 180px;
+    position: relative;
+}
+
+.row2 .boxl .boxl1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.boxl1 .patch {
+    position: absolute;
+    z-index: 1;
+    width: 1px;
+    height: 70%;
+    right: -2px;
+    top: 15%;
+    background-color: #e8e8e8;
+}
+
+.row2 .boxl .boxl2 {
+    float: right;
+    width: 580px;
+}
+
+.boxl2 .boxt {
+    height: 180px;
+}
+
+.boxl2 .boxt p {
+    line-height: 40px;
+}
+
+.boxl2 .boxc {
+    width: 540px;
+    margin: 0 auto;
+    border: 1px dashed #ccc;
+    position: relative;
+}
+
+.boxl2 .boxc p {
+    position: absolute;
+    left: -1px;
+    top: -15px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #2db4ea;
+}
+
+.boxl2 .boxc img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -31px;
+    left: 45px;
+}
+
+.boxl2 .boxb {
+    height: 170px;
+    margin-top: 50px;
+}
+
+.boxl2 .boxb ul li {
+    width: 123px;
+    margin-left: 20px;
+}
+
+.boxl2 .boxb ul li>p:nth-child(2) {
+    color: #666;
+    margin: 5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.boxl2 .boxb ul li>p:nth-child(2) a:hover,
+.row1 li a:hover {
+    color: #333;
+}
+
+.boxl2 .boxb ul li img {
+    width: 100px;
+}
+
+.boxl2 .boxb ul li .red2 {
+    color: red;
+}
+
+.row2 .boxr {
+    float: right;
+    width: 405px;
+}
+.popularB .row2 {
+	display: none;
+}
+
+/* 影音频道 */
+
+.film img:hover {
+    transform: scale(1.1);
+}

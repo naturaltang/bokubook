@@ -1,0 +1,29 @@
+.classify-read1 {
+	height: 55px;
+	border-bottom: 1px dashed #ccc;
+}
+.classify-read1 div:first-child{
+	float: left;
+	width: 150px;
+	height: 55px;
+	text-indent: 10px;
+	line-height: 55px;
+}
+.classify-read1 div:first-child a {
+	font-size: 16px;
+	color: #2DB4EA;
+}
+.classify-read1 div:last-child{
+	float: left;
+	width: 935px;
+	height: 55px;
+}
+.classify-read1 div:last-child a{
+	font-size: 14px;
+}
+.classify-read1 div:last-child span {
+	color: #999;
+}
+.classify-read1 .classify-liter {
+	line-height: 55px;
+}

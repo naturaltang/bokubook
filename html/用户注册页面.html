@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <style>
+        .ta-tc {
+            color: #fff;
+            background-color: #2db4ea;
+            position: absolute;
+            top: 60px;
+            left: 0px;
+        }
+        
+        .ta-tc,
+        .ta-td {
+            width: 585px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        
+        .ta-tc p,
+        .ta-td p {
+            text-align: center;
+        }
+        
+        .ta-td {
+            color: #333;
+            background-color: #e4e4e4;
+            position: absolute;
+            top: 60px;
+            right: 0px;
+        }
+        
+        .ta-tc i {
+            display: block;
+            width: 20px;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            right: -20px;
+            background: url("../images/icon.png") no-repeat 0px 0px;
+        }
+        
+        .ta-td i {
+            display: block;
+            width: 20px;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            background: url("../images/icon.png") no-repeat -25px 0px;
+        }
+        
+        .zhuce p {
+            margin-top: 20px;
+        }
+        
+        .reg {
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            background-color: #2db4ea;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <!--图标字体样式-->
+    <link rel="stylesheet" href="../css/fonticon/iconfont.css">
+    <link rel="stylesheet" href="../css/font_1991648_zl4lwfsqlst/iconfont.css">
+    <link rel="stylesheet" href="../css/font1/iconfont.css">
+
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <link rel="stylesheet" href="../css/foot.css">
+
+    <!-- 引入js文件 -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/head.js"></script>
+    <script src="../js/section.js"></script>
+    <script src="../js/foot.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="boxTop">
+            <div class="nav-head1">
+                <ul>
+                    <li><a href="用户登录页面.html">登录</a></li>
+                    <li class="line">|</li>
+                    <li><a href="用户注册页面.html">免费注册</a></li>
+                    <li class="download"><i class="iconfont">&#xe609;</i><a href="下载app.html">下载博库APP</a></li>
+                </ul>
+                <ol>
+                    <li>
+                        <div class="myboku">
+                            <a href="用户登录页面.html" id="boku"> 我的博库</a>
+                            <i class="iconfont">&#xe65e;</i>
+                        </div>
+                        <ul id="order">
+                            <li><a href="用户登录页面.html">我的订单</a></li>
+                            <li><a href="用户登录页面.html">我的优惠券</a></li>
+                            <li><a href="用户登录页面.html">我的收藏</a></li>
+                            <li><a href="用户登录页面.html">我的收入</a></li>
+                            <li><a href="用户登录页面.html">官方消息</a></li>
+                        </ul>
+                    </li>
+                    <li class="line">|</li>
+                    <li><a href="用户登录页面.html">收藏夹</a></li>
+                    <li class="line">|</li>
+                    <li><a href="用户登录页面.html">店铺管理</a></li>
+                    <li class="line">|</li>
+                    <li><a href="javascript:;">联系客服</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="logo1" style="height: 100px;background-color:#fff;">
+            <div class="logo2" style="width: 1200px;height: 100px;margin: 0 auto;">
+                <img src="../images/logo.png" alt="" style="margin-top: 30px;">
+            </div>
+        </div>
+    </header>
+    <section style="width: 100%;height: 700px;;background-color:#fff;">
+        <div style="width: 1200px;margin:0 auto;border-top:1px solid #e8e8e8;position: relative;">
+            <h4 style="margin-top: 30px;">用户注册</h4>
+            <div class="ta-tc">
+                <p>1.填写注册信息</p><i class="a1"></i></div>
+            <div class="ta-td">
+                <p>2.注册成功</p><i class="a2"></i></div>
+            <div style="margin-left:300px;margin-top: 100px;" class="zhuce">
+                <p>手机号：<input type="text" style="width: 260px;height: 30px;border: 1px solid #e8e8e8;"></p>
+                <p>滑动验证：<input type="range"></p>
+                <p>验证码：<input type="text" style="width: 159px;height: 30px;border: 1px solid #e8e8e8;">&nbsp;
+                    <a href="#" style="background-color: #2db4ea;color: white;padding: 9px 5px;">滑动获取验证码</a></p>
+                <p>密码：<input type="password" style="width: 260px;height: 30px;border: 1px solid #e8e8e8;"></p>
+                <p class="reg">注册</p>
+                <p style="margin-left: 150px;margin-top: 10px;"><a href="#" style="color: #2db4ea;font-size: 16px;">已有账号，前往登录</a></p>
+                <p><input type="checkbox"> 我已阅读并同意 <a href="#" style="color: #2db4ea;font-size: 16px;">《博库网用户注册协议》</a></p>
+                <p>
+                    <a href="#" style="color: #2db4ea;font-size: 16px;">《博库网隐私政策》</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer style="margin-top: -30px;border-top:1px solid #e8e8e8;">
+        <div class="container" style="background-color: white;">
+            <div class="container5" style="height: 80px;">
+                <div class="boxtop">
+                    <ul>
+                        <li style="background: url('../images/正品.png') no-repeat left center;">
+                            <div>
+                                <p>全场正品</p>
+                                <span>出版社直采·博库正品</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/省.png') no-repeat left center;">
+                            <div>
+                                <p>全场满59包邮</p>
+                                <span>惊喜不断·让利多多</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/活.png') no-repeat left center;">
+                            <div>
+                                <p>门店自取</p>
+                                <span>就近取货·方式灵活</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/优.png') no-repeat left center;">
+                            <div>
+                                <p>售后无忧</p>
+                                <span>服务体验·更加精彩</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="width: 100%;border: 1px solid #f5f5f5;margin-top: 5px;"></div>
+            <div class="container6">
+                <div class="boxbottom" style="width: 810px;position: relative;">
+                    <dl>
+                        <dd>新手指南</dd>
+                        <dt><a href="javascript:;">新用户注册</a></dt>
+                        <dt><a href="javascript:;">购物流程</a></dt>
+                        <dt><a href="javascript:;">积分制度</a></dt>
+                        <dt><a href="javascript:;">注册开店</a></dt>
+                        <dt><a href="javascript:;">激励制度</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>支付和配送</dd>
+                        <dt><a href="javascript:;">IC卡充值说明</a></dt>
+                        <dt><a href="javascript:;">验货和签收</a></dt>
+                        <dt><a href="javascript:;">配送范围</a></dt>
+                        <dt><a href="javascript:;">自行取货</a></dt>
+                        <dt><a href="javascript:;">支付方式</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>售后服务</dd>
+                        <dt><a href="javascript:;">发票制度</a></dt>
+                        <dt><a href="javascript:;">退换货流程</a></dt>
+                        <dt><a href="javascript:;">7天无理由退换货</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>个人中心</dd>
+                        <dt><a href="javascript:;">店铺设置</a></dt>
+                        <dt><a href="javascript:;">团队管理</a></dt>
+                        <dt><a href="javascript:;">收入管理</a></dt>
+                        <dt><a href="javascript:;">我的订单</a></dt>
+                        <dt><a href="javascript:;">我的优惠卷</a></dt>
+                        <dt><a href="javascript:;">我的等级</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>了解博库</dd>
+                        <dt><a href="javascript:;">关于博库</a></dt>
+                        <dt><a href="javascript:;">联系我们</a></dt>
+                        <dt><a href="javascript:;">博库网隐私政策</a></dt>
+                        <dt><a href="javascript:;">博库用户注册协议</a></dt>
+                        <dt><a href="javascript:;">博客网分销商注册协议</a></dt>
+                    </dl>
+                    <p class="patch"></p>
+                </div>
+                <div class="erweima">
+                    <div style="height: 140px;margin-left: 20px;">
+                        <div class="weibo">
+                            <p style="text-align: center;">手机微博</p>
+                            <img src="../images/erweima1.jpg" alt="">
+                            <p style="font-size: 14px;">下载手机客户端</p>
+                        </div>
+                        <div class="weixin">
+                            <p style="text-align: center;">关注微信</p>
+                            <img src="../images/erweima2.jpg" alt="">
+                            <p style="font-size: 14px;  margin-left: 5px;">关注官方微信</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <p style="font-weight: bold;">服务热线 0571-26306883</p>
+                        <p style="font-size: 14px;">服务时间 工作日9：00-21：00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="end">
+            <div style="padding: 10px 0 0 25px;">
+                ©Copyright 2005-2020
+                <a href="#">网站备案号：粤B2-20200806-1</a></div>
+            <div>
+                <a href="#"><img src="../images/jingcha.png" alt=""><img src="../images/huizhang.png" alt=""></a>
+                <a href="#">增值电信业务经营许可证：粤B2-20200806</a> bookuu.com 版权所有
+            </div>
+            <div><a href="#">出版物经营许可证新出发粤批字第300411号</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

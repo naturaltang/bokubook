@@ -1,0 +1,58 @@
+{
+  "id": "1994178",
+  "name": "项目1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "298549",
+      "name": "生活·时尚",
+      "font_class": "shenghuoshishang",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "1494692",
+      "name": "科技教育",
+      "font_class": "kejijiaoyu",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "11224011",
+      "name": "少儿",
+      "font_class": "shaoer",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "12803356",
+      "name": "财务经管",
+      "font_class": "ziyuan",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "14600863",
+      "name": "人文社科",
+      "font_class": "renwensheke",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "15602917",
+      "name": "文学艺术",
+      "font_class": "wenxueyishu",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "15708495",
+      "name": "影音",
+      "font_class": "yingyin",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

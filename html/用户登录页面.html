@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录页面</title>
+    <style>
+        .login {
+            width: 420px;
+            height: 520px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 10px;
+            left: 55%;
+        }
+        
+        .login input {
+            display: block;
+            width: 370px;
+            height: 50px;
+            padding-top: 30px;
+            margin-top: 20px;
+            border: 1px solid #e8e8e8;
+            font-size: 14px;
+            color: #212121;
+            padding-left: 5px;
+        }
+        
+        .login .yan {
+            margin-top: 20px;
+        }
+        
+        .login .yan input {
+            width: 160px;
+            height: 38px;
+            margin-top: 0px;
+            padding-top: 0px;
+            position: absolute;
+            top: 260px;
+            left: 85px;
+        }
+        
+        .login .yan img {
+            position: absolute;
+            top: 270px;
+            left: 265px;
+        }
+        
+        .login .yan a {
+            position: absolute;
+            top: 270px;
+            left: 340px;
+            color: #2db4ea;
+            font-size: 14px;
+        }
+        
+        .login .find a {
+            float: right;
+            color: #2db4ea;
+            font-size: 14px;
+            padding-top: 19px;
+        }
+        
+        .login .newperson {
+            background: url('../images/icon.png') no-repeat -50px 0px;
+            height: 50px;
+            width: 360px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 10px;
+        }
+        
+        .login .newperson a {
+            color: #2db4ea;
+            font-size: 14px;
+            padding-top: 19px;
+        }
+        
+        .login .denglu {
+            display: block;
+            width: 375px;
+            height: 50px;
+            background-color: #2db4ea;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            line-height: 50px;
+            margin-top: 40px;
+        }
+        
+        .login div i {
+            background-color: #e4e4e4;
+            font-size: 32px;
+            padding: 5px 12px 5px 12px;
+        }
+        
+        .login div i:nth-child(3) {
+            position: absolute;
+            top: 63px;
+            left: 23px;
+            font-size: 26px;
+            padding: 5px 15px 5px 15px;
+        }
+        
+        .login div i:nth-child(5) {
+            position: absolute;
+            top: 163px;
+            left: 23px;
+        }
+    </style>
+    <!--图标字体样式-->
+    <link rel="stylesheet" href="../css/fonticon/iconfont.css">
+    <link rel="stylesheet" href="../css/font_1991648_zl4lwfsqlst/iconfont.css">
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <link rel="stylesheet" href="../css/foot.css">
+
+    <!-- 引入js文件 -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/head.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo1" style="height: 110px;background-color:#fff;border-bottom: 1px solid #ccc;">
+            <div class="logo2" style="width: 1200px;height: 100px;margin: 0 auto;">
+                <img src="../images/logo.png" alt="" style="margin-top: 30px;">
+            </div>
+        </div>
+    </header>
+    <section style="height: 590px;position: relative;">
+        <div style="height: 590px;background: url('../images/background1.jpg') no-repeat center;">
+            <div class="login">
+                <div style="width: 370px;margin: 20px auto;">
+                    <p style="font-size: 16px;color: #2db4ea;border-bottom: 1px solid #e8e8e8;">博库用户登录</p>
+                    <input type="text" placeholder="请输入手机号和用户名">
+                    <i class="iconfont">&#xe623;</i>
+                    <input type="password">
+                    <i class="iconfont">&#xe613;</i>
+                    <p class="yan">验证码：<input type="text"><img src="../images/authcode.png" alt=""><a href="#">换一张</a></p>
+                    <p class="find"><a href="#">找回密码</a></p>
+                    <a href="#" class="denglu">登录</a>
+                    <p style="color: red;font-size: 12px;margin-top: 5px;">因博库帐号升级，若您无法正常登录，请尝试找回密码。</p>
+                    <p style="height: 30px;line-height: 30px;margin-top: 20px;">
+                        <a href="#" style="font-size: 14px;color: #333;padding-right: 50px;"><img src="../images/qq-block.png" alt="" style="vertical-align: middle;"> QQ登录</a>
+                        <a href="#" style="font-size: 14px;color: #333;"> <img src="../images/zhifu-block.png" alt="" style="vertical-align: middle;"> 支付宝登录</a>
+                    </p>
+                    <p class="newperson"><a href="用户注册页面.html">马上注册新用户</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="border-top:1px solid #e8e8e8;">
+        <div class="container" style="background-color: white;margin-top: -30px;">
+            <div class="container5" style="height: 80px;">
+                <div class="boxtop">
+                    <ul>
+                        <li style="background: url('../images/正品.png') no-repeat left center;">
+                            <div>
+                                <p>全场正品</p>
+                                <span>出版社直采·博库正品</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/省.png') no-repeat left center;">
+                            <div>
+                                <p>全场满59包邮</p>
+                                <span>惊喜不断·让利多多</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/活.png') no-repeat left center;">
+                            <div>
+                                <p>门店自取</p>
+                                <span>就近取货·方式灵活</span>
+                            </div>
+                        </li>
+                        <li style="background: url('../images/优.png') no-repeat left center;">
+                            <div>
+                                <p>售后无忧</p>
+                                <span>服务体验·更加精彩</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="width: 100%;border: 1px solid #f5f5f5;margin-top: 5px;"></div>
+            <div class="container6">
+                <div class="boxbottom" style="width: 810px;position: relative;">
+                    <dl>
+                        <dd>新手指南</dd>
+                        <dt><a href="javascript:;">新用户注册</a></dt>
+                        <dt><a href="javascript:;">购物流程</a></dt>
+                        <dt><a href="javascript:;">积分制度</a></dt>
+                        <dt><a href="javascript:;">注册开店</a></dt>
+                        <dt><a href="javascript:;">激励制度</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>支付和配送</dd>
+                        <dt><a href="javascript:;">IC卡充值说明</a></dt>
+                        <dt><a href="javascript:;">验货和签收</a></dt>
+                        <dt><a href="javascript:;">配送范围</a></dt>
+                        <dt><a href="javascript:;">自行取货</a></dt>
+                        <dt><a href="javascript:;">支付方式</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>售后服务</dd>
+                        <dt><a href="javascript:;">发票制度</a></dt>
+                        <dt><a href="javascript:;">退换货流程</a></dt>
+                        <dt><a href="javascript:;">7天无理由退换货</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>个人中心</dd>
+                        <dt><a href="javascript:;">店铺设置</a></dt>
+                        <dt><a href="javascript:;">团队管理</a></dt>
+                        <dt><a href="javascript:;">收入管理</a></dt>
+                        <dt><a href="javascript:;">我的订单</a></dt>
+                        <dt><a href="javascript:;">我的优惠卷</a></dt>
+                        <dt><a href="javascript:;">我的等级</a></dt>
+                    </dl>
+                    <dl>
+                        <dd>了解博库</dd>
+                        <dt><a href="javascript:;">关于博库</a></dt>
+                        <dt><a href="javascript:;">联系我们</a></dt>
+                        <dt><a href="javascript:;">博库网隐私政策</a></dt>
+                        <dt><a href="javascript:;">博库用户注册协议</a></dt>
+                        <dt><a href="javascript:;">博客网分销商注册协议</a></dt>
+                    </dl>
+                    <p class="patch"></p>
+                </div>
+                <div class="erweima">
+                    <div style="height: 140px;margin-left: 20px;">
+                        <div class="weibo">
+                            <p style="text-align: center;">手机微博</p>
+                            <img src="../images/erweima1.jpg" alt="">
+                            <p style="font-size: 14px;">下载手机客户端</p>
+                        </div>
+                        <div class="weixin">
+                            <p style="text-align: center;">关注微信</p>
+                            <img src="../images/erweima2.jpg" alt="">
+                            <p style="font-size: 14px;  margin-left: 5px;">关注官方微信</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <p style="font-weight: bold;">服务热线 0571-26306883</p>
+                        <p style="font-size: 14px;">服务时间 工作日9：00-21：00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="end">
+            <div style="padding: 10px 0 0 25px;">
+                ©Copyright 2005-2020
+                <a href="#">网站备案号：粤B2-20200806-1</a></div>
+            <div>
+                <a href="#"><img src="../images/jingcha.png" alt=""><img src="../images/huizhang.png" alt=""></a>
+                <a href="#">增值电信业务经营许可证：粤B2-20200806</a> bookuu.com 版权所有
+            </div>
+            <div><a href="#">出版物经营许可证新出发粤批字第300411号</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

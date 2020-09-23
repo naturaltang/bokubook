@@ -1,0 +1,136 @@
+.last-minute {
+	width: 1190px;
+	margin: 0 auto;
+}
+.last-minute li {
+	width: 232px;
+	height: 70px;
+}
+.last-minute li div {
+	width: 160px;
+	height: 67px;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.last-minute li div p:first-child{
+	margin-top: 10px; 
+}
+.delta {
+	border-color:  #f28f97 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+   
+}
+.current3 {
+	background-color: #f28f97;
+	border: 1px solid #f28f97;
+	color: white;
+}
+.last-minute1{
+	height: 1000px;
+	width: 1200px;
+}
+.last-minute1 ol li {
+	width: 225px;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+	background-color: #fff;
+}
+.last-minute1 ol li:hover{
+	box-shadow: 0 0 6px 0 rgba(102, 102, 102, .33);
+}
+.last-minute1 ol li:hover img{
+	transform: scale(1.05);
+}
+.last-minute1 ol .z1 {
+	margin-right: 12px;
+}
+.last-minute1 ol li div:first-child{
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.last-minute1 ol li div:first-child img,.last-minute1 ol li div:first-child {
+	width: 190px;
+	height: 180px;
+}
+
+.last-minute1 ol li div:nth-child(2){
+	width: 205px;
+	margin: 0px auto;
+	height: 40px;
+	margin-top: 10px;
+}
+.last-minute1 ol li div:last-child{
+	width: 205px;
+	margin: 10px auto;
+	height: 45px;
+}
+.last-minute1 ol li div:last-child p:first-child {
+	width: 130px;
+	height: 45px;
+} 
+.last-minute1 ol li div:last-child p:first-child span{
+	color: red;
+}
+.last-minute1 ol li div:last-child p:first-child del{
+	color: #333;
+	font-size: 16px;
+}
+.last-minute1 ol li div:last-child p:last-child {
+	width: 70px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #fbc7cb;
+	color: #ef5864;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+.last-minute1 ol li div:last-child p:last-child:hover{
+	background-color: #ef5864;
+	color: white;
+}
+.jin {
+	display: block;
+	width: 45px;
+	background-color: #fbc7cb;
+	border-radius: 4px;
+	position: absolute;
+	bottom: 10px;
+	left: 95px;
+	height: 10px;
+}
+.sheng {
+	display: block;
+	width: 30px;
+	background-color: #ff8e97;
+	border-radius: 4px;
+	height: 10px;
+}
+.bottom-limited .last-minute1{
+	display: none;
+}
+
+.last-minute li .delta {
+	display: none;
+}
+.last-minute2 ol li div:last-child p:last-child{
+	background-color: #b6dcec;
+	color: #0488bd;
+	cursor: pointer;
+}
+.last-minute2 ol li div:last-child p:last-child:hover{
+	background-color: #0488bd;
+	color: white;
+}

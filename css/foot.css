@@ -1,0 +1,197 @@
+/* 左侧导航 */
+
+.leftmenu {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    margin-left: -680px;
+    width: 45px;
+    border: 1px #e8e8e8 solid;
+    border-width: 1px 1px 0 1px;
+    background-color: #fff;
+    z-index: 1001;
+    display: none;
+}
+
+.leftmenu ul {
+    border-bottom: 1px #e8e8e8 solid;
+}
+
+.leftmenu ul li {
+    cursor: pointer;
+    border: 1px #e8e8e8 solid;
+    padding: 4px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.leftmenu .active {
+    color: #fff;
+    background-color: #2db4ea;
+}
+
+/*.leftmenu ul li a{
+	display: block;
+	font-size: 16px;
+	color: #333;
+}*/
+/* 右侧导航 */
+
+.contact {
+    width: 40px;
+    height: 100%;
+    padding: 4px 0;
+    text-align: center;
+    background-color: #3c3c3c;
+    /* 重要 */
+    word-wrap: break-word;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+.contactMenu {
+    position: relative;
+    top: 220px;
+}
+
+.contactMenu a {
+    display: block;
+    padding: 10px 0;
+    color: #999;
+    line-height: 20px;
+    border-bottom: 1px #8f8f8f solid;
+    text-align: center;
+}
+
+.contactMenu i,
+.Top i {
+    font-size: 20px;
+}
+
+.contactMenu #a1 i {
+    color: #2dbbeb;
+}
+
+.contactMenu a p {
+    font-size: 14px;
+}
+
+.contactMenu .a1:hover {
+    background-color: #8f8f8f;
+    color: black;
+}
+
+.contactMenu .a1:hover i {
+    color: black;
+}
+
+.contact .Top {
+    width: 40px;
+    height: 55px;
+    color: #fff;
+    background-color: #999;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.contact .Top i {
+    color: white;
+}
+
+.contact .Top:hover {
+    background-color: #2dbbeb;
+}
+
+
+/* 尾部 */
+
+footer {
+    width: 100%;
+}
+
+footer .boxtop ul {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+footer .boxtop ul li {
+    width: 240px;
+    margin-top: 20px;
+}
+
+footer .boxtop ul li div {
+    margin-left: 40px;
+}
+
+footer .boxtop ul li span {
+    color: #333;
+    font-size: 12px;
+}
+
+.boxbottom {
+    float: left;
+    height: 200px;
+}
+
+.boxbottom dl {
+    float: left;
+    width: 156px;
+    height: 200px;
+    line-height: 25px;
+}
+
+.boxbottom .patch {
+    position: absolute;
+    z-index: 1;
+    width: 1px;
+    height: 70%;
+    right: -2px;
+    top: 5px;
+    background-color: #e8e8e8;
+}
+
+.erweima {
+    float: right;
+    width: 350px;
+    height: 200px;
+    color: #666;
+    text-indent: 20px;
+}
+
+.erweima img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.weibo {
+    float: left;
+    margin-right: 20px;
+}
+
+.weixin {
+    float: left;
+}
+
+#end {
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: rgb(153, 153, 153);
+}
+
+#end img {
+    padding-right: 10px;
+}
+
+#end a {
+    color: rgb(153, 153, 153);
+}
+
+#end div a:hover {
+    color: white;
+}
